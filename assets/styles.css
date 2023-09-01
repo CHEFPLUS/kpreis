@@ -1,0 +1,104 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+}
+
+body {
+  height: 100vh;
+  background-color: #efefef;
+  align-items: center;
+
+}
+
+.barra {
+  background-color: #3a4145c4;
+  height: 50px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.barrausuario {
+  display: flex;
+  font-size: 20px;
+  color: #ffffff;
+}
+
+.barra img {
+  height: 40px;
+  margin-right: 10px;
+
+}
+
+main {
+  max-height: 100vh;
+  max-width: 100vh;
+  display: flex;
+  margin: auto;
+  margin-top: 50px;
+
+}
+
+.painelMesas {
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.painelMesas a {
+  width: 150px;
+  height: 100px;
+  border-radius: 10px;
+  margin: 10px;
+  display: flex;
+  background-color: #ffffff;
+  justify-content: space-between;
+  box-shadow: 5px 5px 5px rgb(41, 40, 40);
+
+}
+
+.painelMesas p {
+  height: 22px;
+  padding: 0 10px;
+  border-radius: 6px;
+  text-align: center;
+  align-items: center;
+}
+
+.status {
+  background-color: hwb(108 3% 57%);
+  color: #ffffff;
+}
+
+.status2 {
+  background-color: hwb(0 5% 6%);
+  color: #ffffff;
+}
+
+.infocaixa{
+  height: 40px;
+  width: 100vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: Roboto, sans-serif;
+  font-style: oblique
+  
+}
+
+.numeroMesa {
+  background-color: hwb(0 0% 100%);
+  color: #ffffff;
+  font-size: 15px;
+}
+
+.painelMesas  a:hover  {
+  width: 155px;
+  height: 105px;
+  background: #c7c7c7;
+  transition: all 0.3s ease;
+}
